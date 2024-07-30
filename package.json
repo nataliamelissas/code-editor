@@ -4,7 +4,7 @@
 	"vscodeRef": "5437499feb04f7a586f677b155b039bc2b3669eb",
 	"private": true,
 	"description": "A browser based code editor",
-	"homepage": "https://github.com/microsoft/monaco-editor",
+	"homepage": "https://github.com/nataliamelissas/monaco-editor",
 	"author": "Microsoft Corporation",
 	"license": "MIT",
 	"scripts": {
@@ -29,14 +29,14 @@
 		"watch": "tsc -w -p ./src",
 		"build": "ts-node ./build/build-languages",
 		"build-monaco-editor": "npm run build && ts-node ./build/build-monaco-editor",
-		"predeploy" : "npm run build",
-		"deploy" : "gh-pages -d build"
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"typings": "./esm/vs/editor/editor.api.d.ts",
 	"module": "./esm/vs/editor/editor.main.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/microsoft/monaco-editor"
+		"url": "https://github.com/nataliamelissas/monaco-editor"
 	},
 	"devDependencies": {
 		"@types/mocha": "^9.1.0",
